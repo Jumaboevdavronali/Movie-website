@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/*  hero section's code starts here  */
+body {
+  margin: 0;
+}
+
+.hero_part {
+  background-image: url("assets/images/Hero.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 17px;
+  padding-bottom: 160px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-family: Work Sans;
+  font-size: 16px;
+  margin-right: 32px;
+}
+
+.header a {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.header_left {
+  display: flex;
+}
+
+.header_right {
+  display: flex;
+}
+
+.main_logo {
+  margin-bottom: 8px;
+}
+
+.originales {
+  color: #02e7f5;
+}
+
+.logo {
+  margin-top: 14%;
+}
+
+.movie_info {
+  margin-top: 0;
+  color: #f9f9f9;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  max-width: 680px;
+  margin-bottom: 32px;
+}
+
+.play_button,
+.info_button {
+  padding: 14.5px 24px 14.5px 29px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.play_button {
+  background-color: white;
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 14%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #1a1d29;
+  gap: 12px;
+}
+
+.btn_container {
+  display: flex;
+  gap: 24px;
+}
+.info_button {
+  transition: 1s;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  gap: 12px;
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 14%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.info_button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.play_button:hover {
+  cursor: pointer;
+}
+
+.play_button:active {
+  box-shadow: 2px 2px 2px white;
+}
+
+/* movie catalog section's code starts here */
+
+.movie_catalog {
+  background-color: #1a1d29;
+  padding-bottom: 68px;
+}
+.row1_pictures {
+  display: flex;
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+.row1_name {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+}
+.progress_left {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+.row1_pictures img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+/* footer section's code starts here */
+
+.footer {
+  background: #090b13;
+  padding-top: 54px;
+  text-align: center;
+}
+
+.footer_copyright {
+  margin-bottom: 0;
+}
+
+.footer_info {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 36px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  margin-bottom: 41px;
+}
+
+.footer_copyright {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 26px;
+}
+
+.footer_links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.footer_links a {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.movie_info_container{
+  max-width: 1280px;
+  margin: auto;
+}
