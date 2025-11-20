@@ -3,7 +3,10 @@
 /*  hero section's code starts here  */
 body {
   margin: 0;
+   overflow-x: hidden;
 }
+
+
 
 .hero_part {
   background-image: url("assets/images/Hero.png");
@@ -24,9 +27,9 @@ body {
 .header a {
   color: white;
   text-decoration: none;
-  font-family: Work Sans;
   font-size: 16px;
   margin-right: 32px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .header a {
@@ -133,6 +136,27 @@ body {
   max-width: 1280px;
   margin: auto;
 }
+
+.row2_pictures {
+  display: flex;
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.row3_pictures {
+  display: flex;
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.row4_pictures {
+  display: flex;
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
 .row1_name {
   display: flex;
   max-width: 1280px;
@@ -144,9 +168,27 @@ body {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: white;
+  color: aliceblue;
 }
 .row1_pictures img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.row2_pictures img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.row3_pictures img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.row4_pictures img:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: 1s;
@@ -158,6 +200,10 @@ body {
   background: #090b13;
   padding-top: 54px;
   text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  overflow-y: hidden;
+  font-size: 12px;
 }
 
 .footer_copyright {
@@ -210,4 +256,6 @@ body {
 .movie_info_container{
   max-width: 1280px;
   margin: auto;
-}
+}                     
+
+/* css code ends here */
